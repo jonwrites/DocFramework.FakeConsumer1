@@ -1,0 +1,13 @@
+{
+  "JLib.Storage": "JLib.Storage.yml",
+  "JLib.Storage.IntStore": "JLib.Storage.IntStore.yml",
+  "JLib.Storage.IntStore.#ctor": "JLib.Storage.IntStore.yml",
+  "JLib.Storage.IntStore.Add(System.Int32)": "JLib.Storage.IntStore.yml",
+  "JLib.Storage.IntStore.Get(System.Int32)": "JLib.Storage.IntStore.yml",
+  "JLib.Storage.IntStore.Sum": "JLib.Storage.IntStore.yml",
+  "JLib.Storage.StringStore": "JLib.Storage.StringStore.yml",
+  "JLib.Storage.StringStore.#ctor": "JLib.Storage.StringStore.yml",
+  "JLib.Storage.StringStore.Add(System.String)": "JLib.Storage.StringStore.yml",
+  "JLib.Storage.StringStore.Count": "JLib.Storage.StringStore.yml",
+  "JLib.Storage.StringStore.Get(System.Int32)": "JLib.Storage.StringStore.yml"
+}

@@ -1,0 +1,32 @@
+{
+  "api/JLib.Storage.IntStore.html": {
+    "href": "api/JLib.Storage.IntStore.html",
+    "title": "Class IntStore | JLib.Storage",
+    "summary": "Class IntStore Namespace JLib.Storage Assembly JLib.Storage.dll public class IntStore Inheritance object IntStore Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors IntStore() public IntStore() Methods Add(int) public void Add(int value) Parameters value int Get(int) public int Get(int index) Parameters index int Returns int Sum() public int Sum() Returns int"
+  },
+  "api/JLib.Storage.StringStore.html": {
+    "href": "api/JLib.Storage.StringStore.html",
+    "title": "Class StringStore | JLib.Storage",
+    "summary": "Class StringStore Namespace JLib.Storage Assembly JLib.Storage.dll public class StringStore Inheritance object StringStore Inherited Members object.GetType() object.MemberwiseClone() object.ToString() object.Equals(object) object.Equals(object, object) object.ReferenceEquals(object, object) object.GetHashCode() Constructors StringStore() public StringStore() Methods Add(string) public void Add(string value) Parameters value string Count() public int Count() Returns int Get(int) public string Get(int index) Parameters index int Returns string"
+  },
+  "api/JLib.Storage.html": {
+    "href": "api/JLib.Storage.html",
+    "title": "Namespace JLib.Storage | JLib.Storage",
+    "summary": "Namespace JLib.Storage Classes IntStore StringStore"
+  },
+  "docs/data-management.html": {
+    "href": "docs/data-management.html",
+    "title": "Data management | JLib.Storage",
+    "summary": "Data management JLib Storage is intended for simple in-memory data management within an application or service. The storage classes maintain their values for the lifetime of the store instance. They do not provide persistence or database integration. For more advanced storage requirements, applications should use an appropriate persistent storage solution rather than relying on these in-memory components."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting started | JLib.Storage",
+    "summary": "Getting started JLib Storage provides simple stores for working with collections of values. Integer storage The IntStore class can be used to add and retrieve integers and calculate their total. var store = new IntStore(); store.Add(10); store.Add(20); store.Add(30); var total = store.Sum(); IntStore uses functionality provided by JLib Tools to perform the calculation. String storage The StringStore class provides similar functionality for collections of strings. var store = new StringStore(); store.Add(\"First\"); store.Add(\"Second\"); var value = store.Get(0); See the API reference for the complete list of available types and members."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "JLib Storage | JLib.Storage",
+    "summary": "JLib Storage JLib Storage provides simple in-memory storage components for applications that need to manage collections of common data types. Getting started"
+  }
+}

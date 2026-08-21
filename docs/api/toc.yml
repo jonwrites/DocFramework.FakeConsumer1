@@ -1,0 +1,13 @@
+### YamlMime:TableOfContent
+items:
+- uid: JLib.Storage
+  name: JLib.Storage
+  type: Namespace
+  items:
+  - uid: JLib.Storage.IntStore
+    name: IntStore
+    type: Class
+  - uid: JLib.Storage.StringStore
+    name: StringStore
+    type: Class
+memberLayout: SamePage
