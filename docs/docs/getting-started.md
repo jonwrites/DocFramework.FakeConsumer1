@@ -31,4 +31,4 @@ store.Add("Second");
 var value = store.Get(0);
 ```
 
-See the [API reference](./api/JLib.Storage.html) for the complete list of available types and members.
+See the [API reference](../api/JLib.Storage.html) for the complete list of available types and members.

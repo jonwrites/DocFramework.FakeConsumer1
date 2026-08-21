@@ -8,6 +8,17 @@ namespace JLib.Storage;
 public class IntStore
 {
     private readonly List<int> _values = new();
+    private readonly ICalculator _calculator;
+
+    /// <summary>
+    /// Constructs a new instance of a IntStore.
+    /// </summary>
+    /// <param name="calculator">An ICalculator used to perform arithmatic on the stored numbers.</param>
+    /// <returns>New instance of an IntStore.</returns>
+    public IntStore(ICalculator calculator)
+    {
+        _calculator = calculator;
+    }
 
     /// <summary>
     /// Adds an integer to the store.
@@ -34,7 +45,6 @@ public class IntStore
     /// <returns>The sum of all integers in the store.</returns>
     public int Sum()
     {
-        var calculator = new Calculator();
-        return calculator.Total(_values);
+        return _calculator.Total(_values);
     }
 }
