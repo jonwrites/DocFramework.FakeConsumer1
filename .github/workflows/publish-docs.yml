@@ -48,9 +48,9 @@ jobs:
           mkdir -p documentation-input/artifacts
           mkdir -p documentation-input/docs
 
-          cp src/JLib.Storage/bin/Release/*/JLib.Storage.dll documentation-input/artifacts/
+          cp src/JLib.Storage/bin/Release/net9.0/JLib.Storage.dll documentation-input/artifacts/
 
-          cp src/JLib.Storage/bin/Release/*/JLib.Storage.xml documentation-input/artifacts/
+          cp src/JLib.Storage/bin/Release/net9.0/JLib.Storage.xml documentation-input/artifacts/
 
           cp docs/*.md documentation-input/docs/
           cp docs/toc.yml documentation-input/docs/
