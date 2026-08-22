@@ -1,4 +1,6 @@
-- name: Docs
-  href: docs/
-- name: API
-  href: api/
+- name: Introduction to JLib.Storage
+  href: index.md
+- name: Getting Started
+  href: getting-started.md
+- name: Data Management
+  href: data-management.md
