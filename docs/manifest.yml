@@ -2,5 +2,5 @@ name: JLib.Storage
 
 dependencies:
   - name: JLib.Tools
-    version: 1.0.0
-    xref: https://docdemofakelibrary1.z26.web.core.windows.net/v1.0.0/docs/manifest.yml
+    version: 1.2.0
+    xref: https://docdemofakelibrary1.z26.web.core.windows.net/v1.2.0/docs/manifest.yml
